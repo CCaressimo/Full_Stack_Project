@@ -24,8 +24,10 @@
     "express-es6-template-engine": "^2.2.3",
     "helmet": "^4.6.0",
     "morgan": "^1.10.0",
+    "mysql2": "^2.2.5",
     "node-fetch": "^2.6.1",
     "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
     "sequelize": "^6.6.2"
   },
   "devDependencies": {
