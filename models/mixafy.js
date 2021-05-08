@@ -18,7 +18,10 @@ module.exports = (sequelize, DataTypes) => {
     song: DataTypes.STRING,
     shared_link: DataTypes.STRING,
     embed_link: DataTypes.STRING,
-    genre: DataTypes.STRING
+    genre_id: DataTypes.STRING,
+    createdat: DataTypes.DATE,
+    updatedat: DataTypes.DATE
+
   }, {
     sequelize,
     modelName: 'mixafy',
