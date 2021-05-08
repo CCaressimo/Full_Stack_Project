@@ -20,14 +20,14 @@ module.exports = {
       embed_link: {
         type: Sequelize.STRING
       },
-      genre: {
+      genre_id: {
         type: Sequelize.STRING
       },
-      createdAt: {
+      createdat: {
         allowNull: false,
         type: Sequelize.DATE
       },
-      updatedAt: {
+      updatedat: {
         allowNull: false,
         type: Sequelize.DATE
       }

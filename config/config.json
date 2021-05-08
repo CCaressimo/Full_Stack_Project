@@ -1,23 +1,24 @@
 {
   "development": {
-    "username": "",
-    "password": null,
-    "database": "database_development",
-    "host": "127.0.0.1",
+    "username": "uznfuadp",
+    "password": "wKKwGRmkQUhC-08ejHIyEB8aQqglUGma",
+    "database": "uznfuadp",
+    "host": "queenie.db.elephantsql.com",
     "dialect": "postgres"
   },
   "test": {
-    "username": "",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
+    "username": "uznfuadp",
+    "password": "wKKwGRmkQUhC-08ejHIyEB8aQqglUGma",
+    "database": "uznfuadp",
+    "host": "queenie.db.elephantsql.com",
     "dialect": "postgres"
   },
   "production": {
-    "username": "",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "uznfuadp",
+    "password": "wKKwGRmkQUhC-08ejHIyEB8aQqglUGma",
+    "database": "uznfuadp",
+    "host": "queenie.db.elephantsql.com",
     "dialect": "postgres"
   }
 }
+
