@@ -9,7 +9,17 @@
     <link rel="stylesheet" href="..\css\playlist.css">
 </head>
 <body>
-    <iframe src="" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <section>
+        <h4>Playlist</h4>
+        <form action="../../server.js" method="POST" id="playlist_generator">
+            ${list.map(mix => {
+                return `<iframe src="${embed_link}" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>`
+            }).join('')}
+        </form>
+    </section>
+
+    
+
     <script src="..\js/script.js"></script>
 </body>
 </html>
