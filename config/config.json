@@ -1,24 +1,23 @@
 {
   "development": {
-    "username": "uznfuadp",
-    "password": "wKKwGRmkQUhC-08ejHIyEB8aQqglUGma",
-    "database": "uznfuadp",
+    "username": "lsduyxsp",
+    "password": "Ih-62LTaATdz-kdKRkhY03EznD-AUaOt",
+    "database": "lsduyxsp",
     "host": "queenie.db.elephantsql.com",
     "dialect": "postgres"
   },
   "test": {
-    "username": "uznfuadp",
-    "password": "wKKwGRmkQUhC-08ejHIyEB8aQqglUGma",
-    "database": "uznfuadp",
+    "username": "lsduyxsp",
+    "password": "Ih-62LTaATdz-kdKRkhY03EznD-AUaOt",
+    "database": "lsduyxsp",
     "host": "queenie.db.elephantsql.com",
     "dialect": "postgres"
   },
   "production": {
-    "username": "uznfuadp",
-    "password": "wKKwGRmkQUhC-08ejHIyEB8aQqglUGma",
-    "database": "uznfuadp",
+    "username": "lsduyxsp",
+    "password": "Ih-62LTaATdz-kdKRkhY03EznD-AUaOt",
+    "database": "lsduyxsp",
     "host": "queenie.db.elephantsql.com",
     "dialect": "postgres"
   }
 }
-

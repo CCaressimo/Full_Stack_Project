@@ -15,7 +15,7 @@ app.use(express.static("client"));
 
 const es6Renderer = require("express-es6-template-engine");
 app.engine("html", es6Renderer);
-app.set("views", "templates");
+app.set("views", "client/templates");
 app.set("view engine", "html");
 
 const morgan = require("morgan");
@@ -28,6 +28,28 @@ app.use(helmet());
 app.use(express.static("public/css/app.js"));
 
 const server = http.createServer(app);
+
+const {Mixafy} = require('./models')
+
+
+app.get('/', (req, res) => {
+  console.log(req.url);
+  res.render("index");
+})
+
+app.get('/songlist', (req, res) => {
+  console.log('request path is:' + req.path);
+  console.log(db);
+  res.render('songs');
+})
+
+app.get('/playlist/:genre', async (req, res) => {
+  const {genre} = req.params;
+  var mix = await Mixafy.findAll({where: {genre_id: `${genre}`}})
+    console.log(mix);
+  res.render("playlist");
+
+})
 
 server.listen(port, () => {
   console.log(`API running on port ${port}`);
