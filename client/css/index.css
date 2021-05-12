@@ -55,7 +55,7 @@ p {
 }
 
 #main h1 span {
-  color: #ffc451;
+  color: #A341B1;
 }
 
 #main h2 {
@@ -75,7 +75,7 @@ p {
 #main .icon-box i {
   font-size: 32px;
   line-height: 1;
-  color: #ffc451;
+  color: #A341B1;
 }
 
 #main .icon-box h3 {
@@ -93,11 +93,11 @@ p {
 }
 
 #main .icon-box h3 a:hover {
-  color: #ffc451;
+  color: #9C7C9C;
 }
 
 #main .icon-box:hover {
-  border-color: #ffc451;
+  border-color: #A341B1;
 }
 
 @media (min-width: 1024px) {
